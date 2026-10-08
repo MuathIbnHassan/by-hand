@@ -2,13 +2,18 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "by-hand",
   "description": "Claude Code plugins for learning by doing: you type, Claude teaches.",
-  "owner": { "name": "Muath Ibn-Hassan" },
+  "owner": {
+    "name": "Muath Ibn-Hassan"
+  },
   "plugins": [
     {
       "name": "lab-instructor",
-      "description": "Claude as a hands-on lab instructor: you type every step; Claude explains, asks for predictions, verifies read-only and keeps the journal.",
+      "description": "Claude as a hands-on lab instructor (you type, Claude teaches) plus build-lab for the lesson screen it drives.",
       "category": "learning",
-      "source": { "source": "url", "url": "https://github.com/MuathIbnHassan/lab-instructor.git" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MuathIbnHassan/lab-instructor.git"
+      },
       "homepage": "https://github.com/MuathIbnHassan/lab-instructor"
     }
   ]
